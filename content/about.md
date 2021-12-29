@@ -4,5 +4,5 @@ date: 2021-12-29T14:58:18+01:00
 draft: false
 ---
 
-# About
+DevOps engineer (freelancer)
 
