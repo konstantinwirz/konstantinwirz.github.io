@@ -1,0 +1,79 @@
+baseURL = 'https://konstantinwirz.github.io'
+languageCode = 'en-us'
+title = 'Konstantin Wirz'
+theme="hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+enableEmoji = true
+disqusShortname = "konstantin"
+
+[params]
+author="Konstantin Wirz"
+description="Konstantin's personal website"
+keywords="cv,blog,personal,devops"
+info=["DevOps Engineer"]
+avatarURL = "images/avatar.jpg"
+dateFormat="January 2, 2006"
+since=2021
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+rtl=false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme="auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/konstantinwirz/"
+
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Skills"
+weight = 2
+url = "skills/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 4
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
