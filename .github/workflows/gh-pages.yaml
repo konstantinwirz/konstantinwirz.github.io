@@ -1,4 +1,4 @@
-name: githun pages
+name: github pages
 
 on:
   push:
