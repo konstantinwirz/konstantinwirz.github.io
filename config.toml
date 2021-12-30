@@ -1,4 +1,4 @@
-baseURL = 'https://konstantinwirz.github.io'
+baseURL = 'https://konstantin.wirz.dev'
 languageCode = 'en-us'
 title = 'Konstantin Wirz'
 theme="hugo-coder"
