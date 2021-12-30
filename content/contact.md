@@ -5,5 +5,5 @@ draft: false
 ---
 
 
-send an email to [konstantin.wirz@protonmail.com](mailto:konstantin.wirz@protonmail.com)
+send an email to [konstantin@wirz.dev](mailto:konstantin@wirz.dev)
 
